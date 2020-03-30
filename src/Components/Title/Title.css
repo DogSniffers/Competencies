@@ -1,0 +1,16 @@
+#dog{
+    background-color: royalblue;
+    position: absolute;
+    top: 40px;
+    right: 360px;
+}
+.dog{
+    background-color: salmon;
+    position: fixed;
+    top: 40px;
+    right: 50px;
+}
+.fixed{
+    color: sandybrown;
+    position: fixed;
+}
