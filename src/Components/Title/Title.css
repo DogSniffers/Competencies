@@ -15,6 +15,7 @@
     right: 360px;
     animation-name:color;
     animation-duration: 8s; 
+    animation-iteration-count: infinite;
 }
 .dog{
     position: fixed;
@@ -23,6 +24,7 @@
     background-color: skyblue;
     animation-name:color2;
     animation-duration: 4s; 
+    animation-iteration-count: infinite;
 }
 .fixed{
     color: sandybrown;
