@@ -1,14 +1,28 @@
+@keyframes color{
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+@keyframes color2{
+    from{background-color: skyblue;}
+    to{background-color: red;}
+}
 #dog{
-    background-color: royalblue;
+    background-color: red;
     position: absolute;
     top: 40px;
     right: 360px;
+    animation-name:color;
+    animation-duration: 8s; 
 }
 .dog{
-    background-color: salmon;
     position: fixed;
     top: 40px;
     right: 50px;
+    background-color: skyblue;
+    animation-name:color2;
+    animation-duration: 4s; 
 }
 .fixed{
     color: sandybrown;
