@@ -27,6 +27,10 @@
     animation-iteration-count: infinite;
 }
 .fixed{
-    color: sandybrown;
     position: fixed;
+    background-image: linear-gradient(blue, yellow);
+    box-shadow: rebeccapurple 5px 10px;
+    overflow: hidden;
+    text-overflow: hidden;
+    width: 120px;
 }
